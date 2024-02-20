@@ -1,18 +1,24 @@
+/* App.css */
+
+/* Estilo para centrar el contenido principal (logo, textos, juego) */
 .App {
   text-align: center;
 }
 
+/* Estilo para el logo giratorio */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* Estilo para la animación del logo (evita la animación si se prefiere reducir el movimiento) */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* Estilos para el encabezado principal */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,10 +30,12 @@
   color: white;
 }
 
+/* Estilos para los enlaces */
 .App-link {
   color: #61dafb;
 }
 
+/* Animación de giro para el logo */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +43,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Estilos para centrar el texto "Matt Estuvo Aquí" */
+.matt-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para el texto "Matt Estuvo Aquí" */
+.matt-text {
+  margin: 0;
+}
+
+/* Estilos para centrar el contenedor del juego */
+.game-container {
+  text-align: center;
+  margin-top: 20px;
 }
